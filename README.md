@@ -27,13 +27,13 @@ not the case, you can substitute your favorite location.
 
 **Standalone** &mdash; *We recommend this to get started quickly.*
 
-    curl -L http://drip.flatland.org > ~/bin/drip
+    curl -L https://raw.githubusercontent.com/ninjudd/drip/master/bin/drip > ~/bin/drip
     chmod 755 ~/bin/drip
 
 **Checkout** &mdash; *If you want to hack on Drip or follow the latest
 development, this is the way to go.*
 
-    git clone https://github.com/flatland/drip.git
+    git clone https://github.com/ninjudd/drip.git
     cd drip && make prefix=~/bin install
 
 **Homebrew** &mdash; *This is a convenient way to brew drip on OS X.*
@@ -68,7 +68,7 @@ requests with the same classpath will have a 30-minute timeout to deactivation.
 ### JVM Language Integration
 
 For more information about how to integrate Drip with your favorite JVM
-language, check out the [wiki](https://github.com/flatland/drip/wiki).
+language, check out the [wiki](https://github.com/ninjudd/drip/wiki).
 
 # Advanced settings
 
